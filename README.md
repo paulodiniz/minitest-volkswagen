@@ -1,8 +1,6 @@
 # Minitest::Volkswagen
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/minitest/volkswagen`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem allows your tests to behave like Volkswagen tests.
 
 ## Installation
 
@@ -21,6 +19,16 @@ Or install it yourself as:
     $ gem install minitest-volkswagen
 
 ## Usage
+
+After bundling the gem in your project, you can now fake all your tests:
+
+```
+def test_it_behaves_like_volks
+  assert_equal 1, 2
+end
+```
+
+1 runs, 1 assertions, 0 failures, 0 errors, 0 skips
 
 TODO: Write usage instructions here
 
