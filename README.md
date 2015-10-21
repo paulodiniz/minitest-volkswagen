@@ -22,7 +22,7 @@ Or install it yourself as:
 
 After bundling the gem in your project, you can now fake all your tests:
 
-```
+```ruby
 def test_it_behaves_like_volks
   assert_equal 1, 2
 end
