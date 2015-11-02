@@ -16,4 +16,12 @@ class Minitest::VolkswagenTest < Minitest::Test
   def test_assert_kind_of
     assert_kind_of Array, 'string'
   end
+
+  def test_simple_assert
+    assert false
+  end
+
+  def test_simple_refute
+    refute true
+  end
 end
