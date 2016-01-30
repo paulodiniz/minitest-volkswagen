@@ -10,6 +10,11 @@ Add this line to your application's Gemfile:
 gem 'minitest-volkswagen'
 ```
 
+Add this on your test (or test_helper)
+```ruby
+require 'minitest/volkswagen'
+```
+
 And then execute:
 
     $ bundle
